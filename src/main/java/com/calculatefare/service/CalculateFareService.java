@@ -41,7 +41,7 @@ public class CalculateFareService {
         }
     }
 
-    private double randomDistance() {
+    protected double randomDistance() {
         return 1 + random.nextDouble() * 29;
     }
 }
